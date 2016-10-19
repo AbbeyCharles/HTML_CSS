@@ -1,0 +1,43 @@
+body {
+    background-color: #aaa;
+}
+.wrapper {
+    height: 950px;
+    width: 1100px;
+    background-color: beige;
+}
+.header {
+    align: center;
+}
+.head {
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    left: 285px;
+}
+.blue {
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border: 4px black solid;
+}
+.pink {
+    height: 150px;
+    width: 150px;
+    background-color: orchid;
+    padding: 20px;
+    border: 4px black solid;
+}
+.main img {
+    display: inline-block;
+    position: relative;
+    left: 40px;
+}
+.header img {
+    height: 80px;
+    width: 125px;
+}
+#right {
+    background-color: white;
+}
