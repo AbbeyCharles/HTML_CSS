@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Andale mono";
+}
+.wrapper {
+    background-color: lightgrey;
+    padding: 15px;
+}
+.header {
+    height: 45px;
+    width: auto;
+    background-color: turquoise;
+    color: black;
+}
+.header a {
+    color: white;
+    
+}
+.main {
+    background-color: lightyellow;
+    height: 1000px;
+}
+.nav {
+    color: white;
+    background-color: darkgreen;
+    height: 600px;
+    width: 200px;
+}
+.span{
+    color: turquoise;
+}
+.top {
+    height: 200px;
+    width: 800px;
+}
+.box1 {
+    color: white;
+    background-color: darkgreen;
+}
+.middle {
+    height: 200px;
+    width: 800px;
+}
+.box2 {
+    color: white;
+    background-color: darkgreen;
+}
+.bottom {
+    height: 200px;
+    width: 800px;
+}
+.box3 {
+    color: white;
+    background-color: darkgreen;
+}
+.footer {
+    background-color: turquoise;
+    color: black; height: 45px;
+    width: auto;
+}
