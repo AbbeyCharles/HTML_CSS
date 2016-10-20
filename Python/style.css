@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+#wrapper{
+    width: 1000px;
+    height: 900px;
+    background-color: steelblue;
+    padding: 5px;
+}
+#header {
+    height: 125px;
+    width: 1000px;
+    padding: 5px;
+}
+#header img {
+    height: 100px;
+    width: 325px;
+    display: inline-block;
+    padding-top: 18px;
+}
+#headerRight {
+    height: 100px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: white;
+    vertical-align: top;
+}
+#bar {
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    padding-right: 7px;
+}
+#text {
+    text-decoration: underline;
+    color: yellow;
+}
+.search {
+    width: 230px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    border-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#button {
+    height: 30px;
+    width: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px #000000;
+    background-color: steelblue;
+}
+#navbar {
+    height: 55px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #000000;
+    color: white;
+    background-color: rgb(65, 97, 143);
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+#navbar a {
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    padding: 15px;
+    margin-top:30px;
+}
+#main {
+    height: 325px;
+}
+#main p {
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+}
+#main .ethos {
+    color: yellow;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+#sidebar {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 30px;
+    vertical-align: top;
+}
+#sidebar li a{
+    text-decoration-color: yellow;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.info {
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    padding-top: 15px;
+}
+.ethos {
+    color: white;
+    text-align: center;
+    display: inline;
+    padding: 7px;
+}
+#main > .info > p > #zen{
+    text-align: center;
+    display: inline;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+}
+#main2 {
+    height: 250px;
+    width: 1000px;
+    background-color: white;
+}
+#main2 .box {
+    height: 250px;
+    width: 450px;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: top;
+    border-top: 3px solid steelblue;
+}
+#main2 > .box > p > a {
+    color: lightblue;
+}
+#main2 > .box > ul > li {
+    color: lightblue;
+}
+#footer {
+    height: 100px;
+    width: 1000px;
+    padding-top: 60px;
+}
+#footer a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 90px;
+}
+#footer p {
+    color: lightblue;
+    font-size: 12px;
+    text-align: center;
+}
