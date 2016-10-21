@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times new roman', serif;
+}
+#wrapper{
+    height: 970px;
+    width: 1000px;
+background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+}
+#header {
+    border: 1px solid green;
+    height: 100px;
+    width: 1000px;
+}
+#header img {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+#header p {
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-left: 345px;
+}
+#navbar {
+    height: 30px;
+    border: 1px solid black;
+    padding-top: 3px;
+}
+#navbar li {
+    border-right: 1px solid black;
+    padding: 0px 40px 13px 40px;
+    display: inline;
+}
+#main {
+    height: 870px;
+    background:#d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%);
+}
+span {
+    /*add title bar info for all title bars*/    
+}
+#top {
+    border: 5px solid yellow;
+    height: 250px;
+}
+#top img {
+    height: 230px;
+    width: 530px;
+    border: 6px solid grey;
+    display: inline-block;
+}
+#top > #right {
+    height: 242px;
+    width: 395px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    padding: 5px;
+}
+#right > h1 {
+    height: 30px;
+    background-color: lightgrey;
+}
+#right > p:first-child {
+    font-weight: bold;
+    padding-bottom: 4px;
+}
