@@ -1,0 +1,48 @@
+<script type = "text/javascript">
+/*Question One*/
+    var x = [3,5,'Dojo', 'rocks', 'Michael', 'Sensei'];
+    function one () {
+        for(var i=0; i<x.length; i++){
+            console.log(x[i]);
+        }
+        return x;
+    }
+    one ();
+/*Question Two*/
+        x.push(100);
+        console.log(x);
+/*Question Three*/
+        var newArr=[2,4,'Divya','Abbey']
+        x.push(newArr);
+        console.log(x);
+/*Question Four*/
+    function four () {
+        var sum = 0;
+        for(var i=1; i<501; i++){
+            sum = sum+i;
+        }
+        console.log(sum);
+    }
+    four ();
+/*Question Five*/
+    var arr2 = [1,5,90,25,-3,0];
+    var min = arr2[0];
+        for(var i=1; i<arr2.length; i++){
+            if(arr2[i]<min){
+                min=arr2[i];
+            }
+        }
+        console.log(min);
+/*Question Six*/
+    var sum = 0;
+        for(var i=0; i<arr2.length; i++){
+            sum = sum+arr2[i];
+        }
+        var avg=sum/arr2.length;
+        console.log(avg);
+
+
+
+
+
+</script>

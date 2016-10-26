@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset ="utf-8">
+        <title>Cat to Ninja</title>
+        <meta name="description" content="Follow this baby samurai tiger kitten as he grows into a ninja warrior right before your eyes.">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('img').click(function(){
+                    var temp=($(this).attr('src'));
+                    $(this).attr('src', $(this).attr('data-alt-src'));
+                    $(this).attr('data-alt-src', temp));
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="img/cat0.png" data-alt-src="img/ninja0.png"/>
+            <img src="img/cat1.png" data-alt-src="img/ninja1.png"/>
+            <img src="img/cat2.png" data-alt-src="img/ninja2.png"/>
+            <img src="img/cat3.png" data-alt-src="img/ninja3.png"/>
+            <img src="img/cat4.png" data-alt-src="img/ninja4.png"/>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Building Our Own Dojo</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#player').hide();
+                $('.arenaBtn').hover(function(){
+                    $('#wrapper').css('background-image', "url(" + $(this).attr('img-src')+")");
+                    $('#wrapper').css('background-size', 'cover');},
+                    function(){
+                        $('#wrapper').css('background-image', "url(image/black-background.jpg)");
+                    }
+                );
+                $('.arenaBtn').click(function(){
+                    $('#map').html("");
+                    $('#player').show();
+                    $('#wrapper').css('background-image', "url(" + $(this).attr('img-src')+")");
+                })
+                $('.player').select(function(){
+
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="menu">
+                <div id="map">
+                    <h3>Choose Your Battlefield</h3>
+                    <button type=button class="arenaBtn" img-src="image/beach.jpg">Beach</button>
+                    <button type=button class="arenaBtn" img-src="image/earth.jpg">Earth</button>
+                    <button type=button class="arenaBtn" img-src="image/dojo.jpg">Dojo</button>
+                    <button type=button class="arenaBtn" img-src="image/forest.jpg">Forest</button>
+                    <button type=button class="arenaBtn" img-src="image/matrix.jpg">Matrix</button>
+                    <button type=button class="arenaBtn" img-src="image/snow.jpg">Snow</button>
+                </div>
+                <div id="player">
+                    <h3>Choose Your Player</h3>
+                    <div id="left">
+                        <select name="ninja" class="ninja">
+                            <option value="leonardo" class="turtle" img-src="image/leo.png">Leonardo</option>
+                            <option value="raphael" class="turtle" img-src="image/raphael.png">Raphael</option>
+                            <option value="donatello" class="turtle" img-src="image/donny.png">Donatello</option>
+                            <option value="michelangelo" class="turtle" img-src="image/mikey.png">Michelangelo</option>
+                        </select>
+                    </div>
+                    <div id="right">
+                        <select name="ninja" class="ninja">
+                            <option value="Leonardo" class="turtle" img-src="image/leo.png">Leonardo</option>
+                            <option value="raphael" class="turtle" img-src="image/raphael.png">Raphael</option>
+                            <option value="donatello" class="turtle" img-src="image/donny.png">Donatello</option>
+                            <option value="michelangelo" class="turtle" img-src="image/mikey.png">Michelangelo</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="leftP">
+
+                </div>
+                <div class="rightP">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

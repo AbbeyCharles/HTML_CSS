@@ -1,0 +1,246 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+}
+.container {
+    height: 730px;
+    width: 1000px;
+    background-color: rgb(209, 209, 203);
+    /*border: 2px solid orange;*/
+}
+.header {
+    height: 100px;
+    width: 1000px;
+    display: inline-block;
+    /*border: 2px solid green;*/
+}
+#logo {
+    height:80px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#corporate {
+    height: 30px;
+    width: 120px;
+    background-color: rgb(69, 83, 154);
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 425px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+#search {
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+#magnify {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 43px;
+}
+.navbar {
+    height: 30px;
+    /*border: 1px dotted purple;*/
+    padding-left: 431px;
+}
+.navbar li {
+    border-right: 1px solid black;
+    padding: 0px 10px 10px 10px;
+    display: inline;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.main {
+    height: 350px;
+    background-color: steelblue;
+    border: 1px solid white;
+}
+#sidebar {
+    width: 311px;
+    display: inline-block;
+}
+#manage {
+    height:275px;
+    width: 250px;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: rgb(209, 209, 203);
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#top {
+    height: 60px;
+    background-color: rgb(31, 43, 122);
+    color: white;
+}
+#top h4 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding-top: 14px;
+    padding-bottom: 3px;
+}
+#top p {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+.field {
+    display: block;
+    margin-top:3px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.field a {
+    display: block;
+    text-decoration: none;
+}
+.side {
+    height: 27px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+#signin {
+    height: 32px;
+    width: 105px;
+    color: white;
+    background-color: rgb(50, 48, 51);
+    border-radius: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+#register {
+    text-decoration: none;
+    font-size: 16px;
+}
+#customer {
+    height: 35px;
+    width: 254px;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 0px;
+    border: 1px solid white;
+    background: rgb(31, 43, 122);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+#main {
+    height: 335px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+#gradient {
+    height: 335px;
+    width: 175px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+.mid {
+    height: 36px;
+    background-color: rgb(209, 209, 203);
+    border: 1px solid black;
+    padding-top: 12px;
+}
+.mid h4 {
+    display: inline;
+    padding-left: 25px;
+}
+.mid a {
+    text-decoration: none;
+    display: inline;
+}
+.bottom {
+    height: 150px;
+    width: auto;
+    /*border: 2px dotted white;*/
+    background-color: steelblue;
+    padding-left: 10px;
+}
+.data {
+    height: 115px;
+    width: 300px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid lightgrey;
+    margin-left: 6px;
+    margin-top: 12px;
+    padding-left: 9px;
+}
+.info {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+.info a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 4px;
+}
+.info h4 {
+    vertical-align: top;
+    padding-top: 7px;
+    padding-left: 4px;
+}
+.data img {
+    margin-top: 14px;
+    margin-left: 4px;
+}
+.lowNav {
+    height: 36px;
+    background-color: rgb(209, 209, 203);
+    /*border: 1px solid green;*/
+    padding-bottom: 10px;
+}
+.lowNav li {
+    border-right: 1px solid black;
+    padding: 0px 7px 10px 3px;
+    display: inline;
+    width: 600px;
+    margin-left: 5px;
+}
+.lowNav li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+.lowNav p {
+    width: 300px;
+    display: inline;
+    vertical-align: top;
+    margin-left: 675px;
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+#bold {
+    font-weight: bold;
+}
+#green {
+    font-weight: bold;
+    color: green;
+}
+/*#lower {*/
+    width: 300px;
+    border-left: 1px solid black;
+    padding-bottom: 5px;
+}

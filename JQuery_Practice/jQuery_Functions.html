@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+    <head>
+        <title>jQuery Functions</title>
+        <style>
+            .selected {
+                color: red;
+            }
+            .pen {
+                color: orange;
+            }
+            #blue {
+                color: blue;
+            }
+            .red {
+                color: red;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script ="text/javascript">
+            $('document').ready(function(){
+                // click
+                $('#click').click(function(){
+                    $('h2').slideUp();
+                });
+                // focus
+                $('#look').focus(function(){
+                    $(this).next('span').css("display", "inline").fadeOut (1000);
+                });
+                // addClass
+                $('.add p').last().addClass("selected");
+                // val
+                $('#getVal').click(function(){
+                    var text = $('#getVal').text();
+                    $('#redirect').val(text);
+                });
+                // text
+                $('#chgText').click(function(){
+                    var text = $('.text h2').text();
+                    $('#chgText').text(text);
+                });
+                // attr
+                $('#chgBtn').click(function(){
+                    $('#chgBtn').attr('type', 'text');
+                });
+                // html
+                $('.pen').html("It's a <b>PARTY!</b>");
+                // data
+                // $('.data').data ("test", {abbey: pizza, jon: tacos});
+                // $("span: first").text($('.data').data("test").abbey);
+                // $("span: second").text($('.data').data("test").jon);
+
+                // before
+                $('#asdf').before("<b>Only hippies</b>");
+                // after
+                $('#hippies').after("<b> have magic crystals.</b>");
+                // append
+                $('#add').append("<b> these assignments take forever.</b>");
+                
+            });
+        </script>
+    </head>
+    <body>
+        <div class="click">
+            <h2>Click Button</h2>
+            <button type="button" id="click">Click Me!</button>
+            <p>Click the button to slide this header up.</p>
+        </div>
+        <!--focus -->
+        <div class="focus">
+            <h2>Focus</h2>
+            <p><input type='text' id="look"> <span>Focus Fire</span></p>
+        </div>
+        <!--addClass -->
+        <div class="add">
+            <h2>Add Class</h2>
+            <p>Let's</p>
+            <p>make</p>
+            <p>this</p>
+            <p>RED!</p>
+        </div>
+        <!--val -->
+        <div class="val">
+            <h2>Get Value</h2>
+            <button type="button" id="getVal">Click Me!</button>
+            <input type ="text" id="redirect"></input>
+        </div>
+        <!--text -->
+        <div class="text">
+            <h2>Change Text</h2>
+            <button type="button" id="chgText">Click Me!</button>
+        </div>
+        <!--attr -->
+        <div class="attribute">
+            <h2>Change Attributes</h2>
+            <input type="button" id="chgBtn">Kombucha!</input>
+        </div>
+        <!--html -->
+        <div class="html">
+            <h2>Change the HTML</h2>
+            <div class="pen"></div>
+            <div class="pen"></div>
+            <div class="pen"></div>
+        </div>
+        <!--data -->
+        <div class="data">
+            <h2>Insert data</h2>
+            <div id="blue">
+                Favorite foods are:
+                <span class="red"></span>
+                and
+                <span class="red"></span>
+            </div>
+        </div>
+        <!--before -->
+        <div id="left">
+            <h2>Add Something Before</h2>
+            <p id="asdf"> like to brew their own Kombucha.</p>
+        </div>
+        <!--after -->
+        <div class="hippy">
+            <h2>Add Something After</h2>
+            <p id="hippies">Only hippies </p>
+        </div>
+        <!--append -->
+        <div class="addEnd">
+            <h2>Append a Line</h2>
+            <p id="add">I think we can all agree:</p>
+        </div>
+
+    </body>
+</html>
